@@ -195,7 +195,7 @@ padding-left: 10px;
 
 }
 .quality{
-    background-image: url("E:\Projects\school-project\src\utils\q-bg.jpg");
+    background-image: url("../utils/q-bg.jpg");
     display: flex;
     margin: 70px 0;
 }
