@@ -27,7 +27,11 @@ padding-left: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px;
+    padding: 30px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: white;
 }
 .nav-items{
     display: flex;
@@ -198,6 +202,8 @@ padding-left: 10px;
     background-image: url("../utils/q-bg.jpg");
     display: flex;
     margin: 70px 0;
+    background-color:#71a5b2;
+    background-repeat: no-repeat;
 }
 .quality-left{
     margin: 120px 20% 0 10%;
@@ -309,6 +315,9 @@ padding-left: 10px;
 }
 .btn{
     cursor: pointer;
+}
+#contacts{
+    margin-right: 80px;
 }
 @media screen and (max-width: 1400px){
     #hero-img{

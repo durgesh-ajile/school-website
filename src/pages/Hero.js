@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import topShape from '../utils/section-top-shape.png'
 import bottomShape from '../utils/section-bottom.png'
 import qualityShape from '../utils/q-bg.jpg'
@@ -13,7 +13,12 @@ import { IoMail } from "react-icons/io5";
 import { MdLocationOn } from "react-icons/md";
 
 import './pages.css'
+import './Responsive.css'
+
+import MobileNavbar from './MobileNavbar.js'
+
 const Hero = () => {
+  const [select, setSelect] = useState('')
   return (
     <div>
       <div className='top-shape'>
@@ -38,6 +43,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <MobileNavbar
+        select={select}
+        setSelect={setSelect}
+      />
       <div className='navbar'>
         <div className='logo'>
           <img alt='logo' src='' />
@@ -182,7 +191,7 @@ const Hero = () => {
           <img src={contact} style={{width:"100%"}}/>
         </div>
         <div className='top-contacts'>
-          <div className='contacts' style={{ marginRight: "80px" }}>
+          <div className='contacts' id='contacts'>
             <div className='c-icon'>
               <IoCall id='c-icon' />
             </div>

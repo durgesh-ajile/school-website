@@ -1,0 +1,104 @@
+@media screen and (max-width: 490px) and (min-width: 340px) {
+    .section-2-left img{
+        margin-right: 0 !important;
+        margin-top: 25px;
+    }
+    .section-2-left{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 500px) {
+.section-1 {
+    display: block;
+    padding: 0 20px 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-2 {
+    display: block;
+    padding: 0 20px 20px;
+    margin-bottom: 80px;
+}
+.section-2-right {
+    margin-top: 40px;
+    text-align: center;
+}
+.quality{
+    display: block;
+    padding-top: 1px;
+}
+.quality-left {
+    text-align: center;
+    margin: 120px 10% 0;
+}
+.quality .pro-head{
+    text-align: center !important;
+}
+.quality-right {
+    margin-top: 0px;
+}
+.contact-main {
+    display: block;
+}
+.entry{
+    display: block;
+}
+.top-contacts{
+    display: block;
+}
+.points{
+    display: block;
+    margin-bottom: 35px;
+}
+.section-2-right > h3 {
+    margin-bottom: 35px;
+}
+#sec-img{
+    height: 15rem;
+}
+#hero-img {
+    height: 15rem;
+}
+.top-shape{
+    display: none;
+}
+#message{
+    width: 90%;
+}
+.entry input {
+    width: 90%;
+}
+.contact-right {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+#phone {
+    margin-left: 0px;
+}
+.quality-right img{
+    width: 100%;
+}
+.contact-right{
+    width: auto;
+}
+.point{
+    padding: 15px 10px 15px 10px;
+}
+.admission{
+    margin: 100px 0 0;
+}
+.program .head-txt{
+    font-size: 45px;
+}
+.contacts {
+    margin-left: 8%;
+}
+#contacts{
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+.c-desc h2 {
+    font-size: 20px;
+}
+}
