@@ -44,7 +44,7 @@ const MobileNavbar = ({
               <div style={{ display: 'flex' }}>
                 <div
                   onClick={() => handleToggle()}
-                  style={{ color: "#24754F", marginLeft: '20px' }}
+                  style={{ color: "", marginLeft: '20px' }}
                   className="Navbar_hambergure_icon"
                 >
                   <GiHamburgerMenu />

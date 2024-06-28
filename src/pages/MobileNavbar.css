@@ -1,7 +1,9 @@
 .Navbar_coontainer {
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: sticky;
+    top: 0;
+    background-color: white;
     z-index: 2;
     align-items: center;
 }
